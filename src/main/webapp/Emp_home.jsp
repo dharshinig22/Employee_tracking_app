@@ -6,6 +6,8 @@
 <title>Task Duration Pie Chart</title>
 <style>
     body {
+        background-image: url('img/emp8.jpg'); 
+        background-size: cover;
         font-family: Arial, sans-serif;
         background-color: #f8f9fa;
         margin: 0;

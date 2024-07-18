@@ -10,6 +10,8 @@
     <title>Delete a Task</title>
     <style>
         body {
+            background-image: url('img/emp9.jpg'); 
+            background-size: cover;
             font-family: Arial, sans-serif;
             background-color: #f0f2f5;
             margin: 0;

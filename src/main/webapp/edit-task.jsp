@@ -11,6 +11,8 @@
     <title>Edit Task</title>
     <style>
         body {
+            background-image: url('img/emp9.jpg'); 
+            background-size: cover;
             font-family: Arial, sans-serif;
             background-color: #f0f2f5;
             margin: 0;
@@ -50,7 +52,7 @@
             border-radius: 5px;
         }
         form input[type="submit"] {
-            background-color: #4CAF50; /* Green */
+            background-color: #00BFFF; /* Green */
             color: white;
             border: none;
             padding: 10px 20px;
@@ -58,7 +60,7 @@
             cursor: pointer;
         }
         form input[type="submit"]:hover {
-            background-color: #45a049;
+            background-color: #00008B;
         }
         table {
             width: 90%;

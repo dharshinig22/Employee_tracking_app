@@ -32,7 +32,7 @@ public class admin_log_servlet extends HttpServlet {
 
         try {
             if (adminlogDAO.validate(admin_name, admin_password)) {
-                response.sendRedirect("admin_dash.jsp"); // Redirect to admin home page
+                response.sendRedirect("admin_home.jsp"); // Redirect to admin home page
             } else {
                 PrintWriter out = response.getWriter();
                 out.println("<html><body><b>Login failed. Please check your username and password.</b></body></html>");
