@@ -14,7 +14,7 @@ import org.json.JSONObject;
 
 import com.tracking.DAO.getlast5daysdata_DAO;
 
-@WebServlet("/GetLast5DaysData")
+@WebServlet("/get5data")
 public class getlast5daysdata extends HttpServlet {
     private static final long serialVersionUID = 1L;
 

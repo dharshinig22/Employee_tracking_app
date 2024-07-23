@@ -57,7 +57,7 @@ h4{
 
 }
 button{
-    background-color: #00BFFF;
+    background-color: #0080ff;
     border: 0 solid transparent;
     width: 190px;
     height: 60px;
@@ -73,7 +73,7 @@ a{
 }
 button:hover{
     text-align: center;
-    background-color: #87CEFA;
+    background-color: #0040ff;
 }
 </style>
 </head>

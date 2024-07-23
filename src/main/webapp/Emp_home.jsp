@@ -63,6 +63,9 @@
 <div class="chart-container">
     <canvas id="taskPieChart" width="100" height="100"></canvas>
 </div>
+<div class="chart-container">
+    <canvas id="taskBarChart" width="100" height="100"></canvas>
+</div>
 <div id="totalDuration"></div>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -136,7 +139,7 @@
             })
             .catch(error => console.error('Error fetching task data:', error));
         
-        fetch('GetLast5DaysData')
+        fetch('get5data')
         .then(response => response.json())
         .then(data => {
             console.log(data);
